@@ -104,15 +104,12 @@ The inspected distribution contains `front-End/dist/`, `back-End/pubTreeServer.j
 
 *Examples 01–04 have Newick test files only; Excel annotation test files are provided for Examples 05–10.*
 
-[Browse all 10 examples and download their test data →](docs/gallery.md)
 
-## Citation and contact
-
-For citation guidance, see [CITATION.cff](CITATION.cff) and [docs/citation.md](docs/citation.md). Do not cite an unpublished paper as if it were published.
+## Contact
 
 **Contact:** Dr. Xiangyang Li — [lixiangyang@fudan.edu.cn](mailto:lixiangyang@fudan.edu.cn) · [lixiangyang1984@hotmail.com](mailto:lixiangyang1984@hotmail.com)
 
-**Lab website:** [Bacterial Genomic Data Mining & Bioinformatic Analysis](https://www.microbialgenomic.cn/)
+**Lab website:** kaili Universitu, [Bacterial Genomic Data Mining & Bioinformatic Analysis](https://www.microbialgenomic.cn/)
 
 **License:** This documentation portal does not add or imply a new license for the externally hosted software distribution. See [LICENSE_NOTICE.md](LICENSE_NOTICE.md).
 
