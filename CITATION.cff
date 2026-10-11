@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: >-
+  If you use pubTreeServer, cite the official software website; please check
+  the project homepage for an updated software publication citation.
+type: software
+title: 'pubTreeServer: An All-in-One Web Platform from Genomic Sequences to Publication-Ready, Annotated Phylogenomic Trees'
+authors:
+  - family-names: Li
+    given-names: Xiangyang
+url: 'https://mgs.microbialgenomic.cn/pubTreeServer'
+abstract: >-
+  pubTreeServer integrates pubAutoTree for automated phylogenomic inference
+  with TreeVisualizer for interactive phylogenetic tree visualization,
+  14 annotation types and publication-ready figure export.

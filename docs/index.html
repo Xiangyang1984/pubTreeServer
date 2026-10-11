@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="pubTreeServer: an integrated platform for automated phylogenomic inference, interactive tree visualization, 14 annotation types and publication-ready export.">
+  <title>pubTreeServer | Phylogenomics to Publication-Ready Trees</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="shell nav-wrap">
+      <a class="brand" href="#top" aria-label="pubTreeServer home"><span class="brand-glyph" aria-hidden="true">◈</span> pubTreeServer</a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#features">Features</a>
+        <a href="#workflow">Workflow</a>
+        <a href="#gallery">Examples</a>
+        <a href="#download">Download</a>
+        <a class="nav-cta" href="https://mgs.microbialgenomic.cn/pubTreeServer" target="_blank" rel="noopener">Launch online ↗</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="orb orb-a" aria-hidden="true"></div><div class="orb orb-b" aria-hidden="true"></div>
+      <div class="shell hero-content">
+        <div class="eyebrow"><span class="dot"></span> An integrated phylogenomic platform</div>
+        <h1>From genomic sequences to <em>publication-ready</em> phylogenomic trees.</h1>
+        <p>pubTreeServer unites automated tree inference with interactive visualization, Excel-based annotations and high-quality figure export — without fragmenting your genome-to-figure workflow.</p>
+        <div class="hero-actions">
+          <a class="btn btn-light" href="https://mgs.microbialgenomic.cn/pubTreeServer" target="_blank" rel="noopener">Open pubTreeServer <span aria-hidden="true">↗</span></a>
+          <a class="btn btn-outline" href="https://www.microbialgenomic.cn/pubtreeserverData/pubTreeServer_local.tar.gz">Download local package <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-metrics" aria-label="Key capabilities">
+          <div><strong>2</strong><span>integrated entry modes</span></div>
+          <div><strong>14</strong><span>annotation types</span></div>
+          <div><strong>3</strong><span>tree layout families</span></div>
+          <div><strong>6</strong><span>figure export formats</span></div>
+        </div>
+      </div>
+    </section>
+    <section class="section" id="features">
+      <div class="shell">
+        <div class="section-heading"><p class="kicker">Core capabilities</p><h2>Inference, annotation and figure design in one place</h2><p>Use the automatic genome-based workflow, or upload an existing Newick tree directly into TreeVisualizer.</p></div>
+        <div class="feature-grid">
+          <article class="feature-card"><div class="feature-icon blue">①</div><h3>pubAutoTree</h3><p>Start with NCBI assembly accessions or FASTA genomes. Run automated phylogenomic analyses with supported quality-control and inference options.</p><a class="text-link" href="https://mgs.microbialgenomic.cn/pubTreeServer/pubAutoTree/user_request" target="_blank" rel="noopener">Run automated inference ↗</a></article>
+          <article class="feature-card"><div class="feature-icon green">②</div><h3>TreeVisualizer</h3><p>Explore rectangular, circular and unrooted layouts; edit nodes, branches and text, and fine-tune the visual presentation interactively.</p><a class="text-link" href="https://mgs.microbialgenomic.cn/pubTreeServer/TreeVisualizer" target="_blank" rel="noopener">Open TreeVisualizer ↗</a></article>
+          <article class="feature-card"><div class="feature-icon violet">③</div><h3>Excel-based annotations</h3><p>Import a single annotation table, combine 14 supported annotation types and configure global styles or individual columns.</p><a class="text-link" href="https://mgs.microbialgenomic.cn/pubTreeServer/usage" target="_blank" rel="noopener">Explore annotation settings ↗</a></article>
+        </div>
+        <div class="export-strip"><div><strong>Publication-ready figures</strong><span>Fine-tune your tree and export in your preferred format.</span></div><div class="format-list"><span>SVG</span><span>PDF</span><span>EPS</span><span>PS</span><span>PNG</span><span>JPEG</span></div></div>
+      </div>
+    </section>
+    <section class="section section-tint" id="workflow">
+      <div class="shell">
+        <div class="section-heading"><p class="kicker">Unified workflow</p><h2>Two ways in. One visualization workspace.</h2></div>
+        <div class="modes">
+          <article class="mode"><span class="mode-label">MODE 01 / GENOMIC INPUT</span><h3>Genome → phylogeny → TreeVisualizer</h3><p>Provide NCBI assembly accessions or upload FASTA genome assemblies. pubAutoTree infers a phylogenetic tree and passes it to the visualization interface.</p><a href="https://mgs.microbialgenomic.cn/pubTreeServer/pubAutoTree/user_request" target="_blank" rel="noopener">Start with genomes ↗</a></article>
+          <article class="mode"><span class="mode-label">MODE 02 / EXISTING TREE</span><h3>Newick → TreeVisualizer</h3><p>Upload a pre-built `.nwk` phylogeny to immediately begin editing, annotation, layout customization and figure export.</p><a href="https://mgs.microbialgenomic.cn/pubTreeServer/TreeVisualizer" target="_blank" rel="noopener">Start with a Newick tree ↗</a></article>
+        </div>
+        <figure class="workflow-figure"><img loading="lazy" src="assets/pubTreeServer_workflow.png" width="1200" height="927" alt="pubTreeServer workflow diagram: genome input or Newick input, 14 types of metadata annotations and publication-ready figure export"><figcaption>Integrated workflow adapted from the supplied pubTreeServer release artwork; annotation count updated to 14.</figcaption></figure>
+      </div>
+    </section>
+    <section class="section" id="annotations">
+      <div class="shell annotation-layout"><div><p class="kicker">14 annotation types</p><h2>One Excel table. Many dimensions of information.</h2><p>Bring categorical, numeric, clade-level, node-level and branch-level metadata together without switching between separate annotation files.</p><a class="text-link" href="https://mgs.microbialgenomic.cn/pubTreeServer/usage" target="_blank" rel="noopener">Read the annotation guide ↗</a></div>
+        <div class="tags" aria-label="Fourteen annotation types"><span>label</span><span>leafnode</span><span>leafbranch</span><span>leafdashedbranch</span><span>clade</span><span>leafclade</span><span>binaryplot</span><span>heatmap</span><span>bar</span><span>stack</span><span>line</span><span>scatterplot</span><span>bubble</span><span>pie</span></div>
+      </div>
+    </section>
+    <section class="section section-tint" id="gallery">
+      <div class="shell"><div class="section-heading"><p class="kicker">Explore real examples</p><h2>Ten ways to see what pubTreeServer can do</h2><p>View protected examples, edit a copy, consult the guide and download available Newick or Excel test data in the official gallery.</p></div>
+        <div class="gallery-grid">
+          <a class="gallery-tile" href="https://mgs.microbialgenomic.cn/pubTreeServer/TreeVisualizer?galleryExample=basic-rectangle" target="_blank" rel="noopener"><span class="tile-number">01</span><strong>Basic Rectangle</strong><small>Branch lengths &amp; tree styling ↗</small></a>
+          <a class="gallery-tile" href="https://mgs.microbialgenomic.cn/pubTreeServer/TreeVisualizer?galleryExample=basic-circular" target="_blank" rel="noopener"><span class="tile-number">02</span><strong>Basic Circular</strong><small>Circular tree layout ↗</small></a>
+          <a class="gallery-tile" href="https://mgs.microbialgenomic.cn/pubTreeServer/TreeVisualizer?galleryExample=basic-unrooted" target="_blank" rel="noopener"><span class="tile-number">03</span><strong>Basic Unrooted</strong><small>Unrooted layout ↗</small></a>
+          <a class="gallery-tile" href="https://mgs.microbialgenomic.cn/pubTreeServer/TreeVisualizer?galleryExample=multidimensional-annotation" target="_blank" rel="noopener"><span class="tile-number">07</span><strong>All 14 Types</strong><small>Unrooted circular tracks ↗</small></a>
+          <a class="gallery-tile" href="https://mgs.microbialgenomic.cn/pubTreeServer/TreeVisualizer?galleryExample=publication-ready" target="_blank" rel="noopener"><span class="tile-number">08</span><strong>Publication Figure</strong><small>Final figure design ↗</small></a>
+        </div><div class="center"><a class="btn btn-primary" href="https://mgs.microbialgenomic.cn/pubTreeServer/tree_gallery" target="_blank" rel="noopener">Browse all 10 examples ↗</a></div>
+      </div>
+    </section>
+    <section class="section" id="download"><div class="shell"><div class="download-panel"><div><p class="kicker">Local deployment</p><h2>Run pubTreeServer in your own environment</h2><p>Download the compiled frontend/backend distribution, then follow the official instructions for Java, Redis, Node.js and workflow-dependent bioinformatics tools.</p><div class="download-meta"><span>Official server-hosted archive</span><span>Linux / macOS deployment guidance</span></div></div><div class="download-actions"><a class="btn btn-light" href="https://www.microbialgenomic.cn/pubtreeserverData/pubTreeServer_local.tar.gz">Download .tar.gz ↓</a><a class="btn btn-outline" href="https://mgs.microbialgenomic.cn/pubTreeServer/local-install" target="_blank" rel="noopener">Local installation guide ↗</a><code>tar -xzf pubTreeServer_local.tar.gz</code></div></div></div></section>
+    <section class="section docs-section"><div class="shell"><h2>Documentation &amp; support</h2><div class="doc-grid"><a href="https://mgs.microbialgenomic.cn/pubTreeServer/usage" target="_blank" rel="noopener"><strong>User guide</strong><span>Inputs, interactive operations, Excel format and export.</span><i>↗</i></a><a href="https://mgs.microbialgenomic.cn/pubTreeServer/tree_gallery" target="_blank" rel="noopener"><strong>Tree gallery</strong><span>Example previews, data and editable copies.</span><i>↗</i></a><a href="https://mgs.microbialgenomic.cn/pubTreeServer/local-install" target="_blank" rel="noopener"><strong>Local deployment</strong><span>Requirements, tool paths and setup instructions.</span><i>↗</i></a></div></div></section>
+  </main>
+  <footer class="footer"><div class="shell footer-row"><div><strong>pubTreeServer</strong><p>From genomic sequences to annotated phylogenomic trees.</p></div><div><p>Contact: <a href="mailto:lixiangyang@fudan.edu.cn">Dr. Xiangyang Li</a></p><p><a href="https://www.microbialgenomic.cn/" target="_blank" rel="noopener">Bacterial Genomic Data Mining &amp; Bioinformatic Analysis ↗</a></p></div></div></footer>
+</body>
+</html>
