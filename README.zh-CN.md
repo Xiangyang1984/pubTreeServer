@@ -16,7 +16,8 @@
 2. **TreeVisualizer：** 支持矩形、环形和无根布局，交互编辑树的分支、节点和文字等元素。
 3. **14 种注释：** `label`、`leafnode`、`leafbranch`、`leafdashedbranch`、`clade`、`leafclade`、`binaryplot`、`heatmap`、`bar`、`stack`、`line`、`scatterplot`、`bubble`、`pie`。
 4. **Excel 统一注释：** 一张 Excel 表导入注释，通过全局设置和列级设置控制显示效果。
-5. **论文级导出：** SVG、PDF、EPS、PS、PNG、JPEG。
+5. **保存与共享配置：** 通过 **Save Configuration** 保存当前可视化和注释设置，包括布局、进化树状态、注释数据、颜色、图例、比例尺、编辑后的进化树位置及其他交互状态。可将保存后生成的 URL 分享给协作者，便于团队成员查看、继续编辑和完善同一配置的图形。
+6. **论文级导出：** SVG、PDF、EPS、PS、PNG、JPEG。
 
 ## 本地部署包下载
 

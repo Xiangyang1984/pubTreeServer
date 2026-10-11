@@ -30,7 +30,7 @@
 | **Workflow** | pubAutoTree → inferred phylogeny → TreeVisualizer | TreeVisualizer directly |
 | **Start** | [Run pubAutoTree ↗](https://mgs.microbialgenomic.cn/pubTreeServer/pubAutoTree/user_request) | [Open TreeVisualizer ↗](https://mgs.microbialgenomic.cn/pubTreeServer/TreeVisualizer) |
 
-<p align="center"><img alt="pubTreeServer integrated workflow: two input modes converge on tree visualization, 14 annotation types and figure export" src="docs/assets/pubTreeServer_workflow.svg" width="760"></p>
+<p align="center"><img alt="pubTreeServer integrated workflow: two input modes converge on tree visualization, 14 annotation types and figure export" src="docs/assets/pubTreeServer_workflow.png" width="760"></p>
 
 ## Core features
 
@@ -39,9 +39,16 @@
 | **pubAutoTree** | Phylogenomic inference from FASTA genomes or NCBI assembly accessions; multiple inference methods, with analysis-dependent quality control and recombination filtering. |
 | **TreeVisualizer** | Rectangular, circular and unrooted tree layouts; interactive tree editing and real-time figure customization. |
 | **Excel-based annotation** | A unified annotation spreadsheet, **14 supported annotation types**, global settings and column-specific controls. |
-| **Publication-ready export** | SVG, PDF, EPS, PS, PNG and JPEG figure formats. |
 | **Tree gallery** | Ten online examples with views, editable copies and downloadable example data. |
 | **Local deployment** | Precompiled web frontend and backend, bundled workflow scripts, and configurable local genomic database support. |
+
+### Save and share configuration
+
+The **Save Configuration** function saves the current visualization and annotation settings, including layout, tree state, annotation data, colors, legends, scale bar, edited tree position, and other interactive states. The saved URL can be shared with collaborators, enabling team members to review and refine the same configured figure.
+
+### Publication-ready export
+
+Export publication-ready figures in SVG, PDF, EPS, PS, PNG and JPEG formats.
 
 ### 14 supported annotation types
 
@@ -86,7 +93,12 @@ The inspected distribution contains `front-End/dist/`, `back-End/pubTreeServer.j
 | **01** | Basic rectangular phylogeny | [View ↗](https://mgs.microbialgenomic.cn/pubTreeServer/TreeVisualizer?galleryExample=basic-rectangle) |
 | **02** | Basic circular phylogeny | [View ↗](https://mgs.microbialgenomic.cn/pubTreeServer/TreeVisualizer?galleryExample=basic-circular) |
 | **03** | Basic unrooted phylogeny | [View ↗](https://mgs.microbialgenomic.cn/pubTreeServer/TreeVisualizer?galleryExample=basic-unrooted) |
-| **07** | All **14** annotation types with unrooted circular tracks | [View ↗](https://mgs.microbialgenomic.cn/pubTreeServer/TreeVisualizer?galleryExample=multidimensional-annotation) |
+| **04** | Selected-element styling and interactive editing | [View ↗](https://mgs.microbialgenomic.cn/pubTreeServer/TreeVisualizer?galleryExample=interactive-editing) |
+| **05** | Categorical annotation tracks | [View ↗](https://mgs.microbialgenomic.cn/pubTreeServer/TreeVisualizer?galleryExample=categorical-annotation) |
+| **06** | Quantitative annotation tracks | [View ↗](https://mgs.microbialgenomic.cn/pubTreeServer/TreeVisualizer?galleryExample=quantitative-annotation) |
+| **07** | All 14 annotation types with unrooted circular tracks | [View ↗](https://mgs.microbialgenomic.cn/pubTreeServer/TreeVisualizer?galleryExample=multidimensional-annotation) |
+| **08** | Publication-ready annotated figure | [View ↗](https://mgs.microbialgenomic.cn/pubTreeServer/TreeVisualizer?galleryExample=publication-ready) |
+| **09** | Large-tree visualization and editing | [View ↗](https://mgs.microbialgenomic.cn/pubTreeServer/TreeVisualizer?galleryExample=large-tree) |
 | **10** | Save, reopen and continue editing | [View ↗](https://mgs.microbialgenomic.cn/pubTreeServer/TreeVisualizer?galleryExample=save-recover) |
 
 [Browse all 10 examples and download their test data →](docs/gallery.md)

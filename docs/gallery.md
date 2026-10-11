@@ -20,3 +20,5 @@ The official gallery offers **View example**, **Edit a copy**, a **Guide** link,
 **Example 07** demonstrates the full set of 14 annotation types using an unrooted layout with unrooted circular tracks. Use its Excel sheet as a reference for combined annotation types.
 
 The links here point to test files hosted on the official domain; this repository does not duplicate the files. The live gallery contains the latest descriptions, previews and guidance for each example.
+
+> **Gallery preview:** The project homepage and GitHub Pages landing page both list all 10 examples (01–10), using the example titles and `galleryExample` identifiers found in the supplied pubTreeServer frontend distribution.

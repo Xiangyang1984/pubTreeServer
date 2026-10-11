@@ -8,7 +8,8 @@
 2. Provide NCBI assembly accessions or upload FASTA genome assemblies.
 3. Select a supported phylogenomic analysis method and parameters and submit the job.
 4. Retrieve or open the completed analysis. The inferred tree is passed to TreeVisualizer for visualization and annotation.
-5. Adjust the layout and tree styles, upload an Excel metadata table if desired, and export a figure.
+5. Adjust the layout and tree styles, and upload an Excel metadata table if desired.
+6. Use **Save Configuration** to save the figure's current settings and share its URL with collaborators, or export a publication-ready figure.
 
 Analysis options may have different input, database and computational requirements. Refer to the [usage guide ↗](https://mgs.microbialgenomic.cn/pubTreeServer/usage).
 
@@ -18,7 +19,8 @@ Analysis options may have different input, database and computational requiremen
 2. Upload a Newick tree (`.nwk`).
 3. Select a rectangular, circular or unrooted layout.
 4. Edit the tree interactively, then import the optional Excel annotation table containing any combination of the 14 supported types.
-5. Configure global or per-column annotation settings and export the finished figure.
+5. Configure global or per-column annotation settings.
+6. Use **Save Configuration** to preserve and share the configured figure, or export it in a supported figure format.
 
 ## Learn from examples
 
