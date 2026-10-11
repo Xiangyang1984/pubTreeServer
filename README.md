@@ -109,7 +109,7 @@ The inspected distribution contains `front-End/dist/`, `back-End/pubTreeServer.j
 
 **Contact:** Dr. Xiangyang Li — [lixiangyang@fudan.edu.cn](mailto:lixiangyang@fudan.edu.cn) · [lixiangyang1984@hotmail.com](mailto:lixiangyang1984@hotmail.com)
 
-**Lab website:** kaili Universitu, [Bacterial Genomic Data Mining & Bioinformatic Analysis](https://www.microbialgenomic.cn/)
+**Lab website:** kaili University, [Bacterial Genomic Data Mining & Bioinformatic Analysis](https://www.microbialgenomic.cn/)
 
 **License:** This documentation portal does not add or imply a new license for the externally hosted software distribution. See [LICENSE_NOTICE.md](LICENSE_NOTICE.md).
 
