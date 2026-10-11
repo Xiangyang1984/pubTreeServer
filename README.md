@@ -39,21 +39,14 @@
 | **pubAutoTree** | Phylogenomic inference from FASTA genomes or NCBI assembly accessions; multiple inference methods, with analysis-dependent quality control and recombination filtering. |
 | **TreeVisualizer** | Rectangular, circular and unrooted tree layouts; interactive tree editing and real-time figure customization. |
 | **Excel-based annotation** | A unified annotation spreadsheet, **14 supported annotation types**, global settings and column-specific controls. |
+| **Publication-ready export** | Export publication-ready figures in SVG, PDF, EPS, PS, PNG and JPEG formats. |
 | **Save and share configuration** | Save the current visualization and annotation settings, then share the saved URL for collaborative review and continued editing. |
 | **Tree gallery** | Ten online examples with views, editable copies and downloadable example data. |
 | **Local deployment** | Precompiled web frontend and backend, bundled workflow scripts, and configurable local genomic database support. |
 
-### Save and share configuration
-
-The **Save Configuration** function saves the current visualization and annotation settings, including layout, tree state, annotation data, colors, legends, scale bar, edited tree position, and other interactive states. The saved URL can be shared with collaborators, enabling team members to review and refine the same configured figure.
-
-### Publication-ready export
-
-Export publication-ready figures in SVG, PDF, EPS, PS, PNG and JPEG formats.
-
 ### 14 supported annotation types
 
-`label` · `leafnode` · `leafbranch` · `leafdashedbranch` · `clade` · `leafclade` · `binaryplot` · `heatmap` · `bar` · `stack` · `line` · `scatterplot` · `bubble` · `pie`
+`leafnode` · `leafbranch` · `leafdashedbranch` · `leafclade` · `label` · `clade` · `binaryplot` · `heatmap` · `bar` · `stack` · `line` · `scatterplot` · `bubble` · `pie`
 
 Read the [annotation type reference](docs/annotations.md) or the [official usage guide](https://mgs.microbialgenomic.cn/pubTreeServer/usage) for Excel format and configuration details.
 
