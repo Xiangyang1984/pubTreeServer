@@ -39,6 +39,7 @@
 | **pubAutoTree** | Phylogenomic inference from FASTA genomes or NCBI assembly accessions; multiple inference methods, with analysis-dependent quality control and recombination filtering. |
 | **TreeVisualizer** | Rectangular, circular and unrooted tree layouts; interactive tree editing and real-time figure customization. |
 | **Excel-based annotation** | A unified annotation spreadsheet, **14 supported annotation types**, global settings and column-specific controls. |
+| **Save and share configuration** | Save the current visualization and annotation settings, then share the saved URL for collaborative review and continued editing. |
 | **Tree gallery** | Ten online examples with views, editable copies and downloadable example data. |
 | **Local deployment** | Precompiled web frontend and backend, bundled workflow scripts, and configurable local genomic database support. |
 
@@ -88,18 +89,20 @@ The inspected distribution contains `front-End/dist/`, `back-End/pubTreeServer.j
 
 ### Example gallery preview
 
-| Example | Focus | Online example |
-|---|---|---|
-| **01** | Basic rectangular phylogeny | [View ↗](https://mgs.microbialgenomic.cn/pubTreeServer/TreeVisualizer?galleryExample=basic-rectangle) |
-| **02** | Basic circular phylogeny | [View ↗](https://mgs.microbialgenomic.cn/pubTreeServer/TreeVisualizer?galleryExample=basic-circular) |
-| **03** | Basic unrooted phylogeny | [View ↗](https://mgs.microbialgenomic.cn/pubTreeServer/TreeVisualizer?galleryExample=basic-unrooted) |
-| **04** | Selected-element styling and interactive editing | [View ↗](https://mgs.microbialgenomic.cn/pubTreeServer/TreeVisualizer?galleryExample=interactive-editing) |
-| **05** | Categorical annotation tracks | [View ↗](https://mgs.microbialgenomic.cn/pubTreeServer/TreeVisualizer?galleryExample=categorical-annotation) |
-| **06** | Quantitative annotation tracks | [View ↗](https://mgs.microbialgenomic.cn/pubTreeServer/TreeVisualizer?galleryExample=quantitative-annotation) |
-| **07** | All 14 annotation types with unrooted circular tracks | [View ↗](https://mgs.microbialgenomic.cn/pubTreeServer/TreeVisualizer?galleryExample=multidimensional-annotation) |
-| **08** | Publication-ready annotated figure | [View ↗](https://mgs.microbialgenomic.cn/pubTreeServer/TreeVisualizer?galleryExample=publication-ready) |
-| **09** | Large-tree visualization and editing | [View ↗](https://mgs.microbialgenomic.cn/pubTreeServer/TreeVisualizer?galleryExample=large-tree) |
-| **10** | Save, reopen and continue editing | [View ↗](https://mgs.microbialgenomic.cn/pubTreeServer/TreeVisualizer?galleryExample=save-recover) |
+| Example | Focus | Online example | Example data |
+|---|---|---|---|
+| **01** | Basic rectangular phylogeny | [View ↗](https://mgs.microbialgenomic.cn/pubTreeServer/TreeVisualizer?galleryExample=basic-rectangle) | [NWK ↓](https://www.microbialgenomic.cn/pubtreeserverData/tree_gallery_example_data/example01.nwk) |
+| **02** | Basic circular phylogeny | [View ↗](https://mgs.microbialgenomic.cn/pubTreeServer/TreeVisualizer?galleryExample=basic-circular) | [NWK ↓](https://www.microbialgenomic.cn/pubtreeserverData/tree_gallery_example_data/example02.nwk) |
+| **03** | Basic unrooted phylogeny | [View ↗](https://mgs.microbialgenomic.cn/pubTreeServer/TreeVisualizer?galleryExample=basic-unrooted) | [NWK ↓](https://www.microbialgenomic.cn/pubtreeserverData/tree_gallery_example_data/example03.nwk) |
+| **04** | Selected-element styling and interactive editing | [View ↗](https://mgs.microbialgenomic.cn/pubTreeServer/TreeVisualizer?galleryExample=interactive-editing) | [NWK ↓](https://www.microbialgenomic.cn/pubtreeserverData/tree_gallery_example_data/example04.nwk) |
+| **05** | Categorical annotation tracks | [View ↗](https://mgs.microbialgenomic.cn/pubTreeServer/TreeVisualizer?galleryExample=categorical-annotation) | [NWK ↓](https://www.microbialgenomic.cn/pubtreeserverData/tree_gallery_example_data/example05.nwk) · [Excel ↓](https://www.microbialgenomic.cn/pubtreeserverData/tree_gallery_example_data/example05.xlsx) |
+| **06** | Quantitative annotation tracks | [View ↗](https://mgs.microbialgenomic.cn/pubTreeServer/TreeVisualizer?galleryExample=quantitative-annotation) | [NWK ↓](https://www.microbialgenomic.cn/pubtreeserverData/tree_gallery_example_data/example06.nwk) · [Excel ↓](https://www.microbialgenomic.cn/pubtreeserverData/tree_gallery_example_data/example06.xlsx) |
+| **07** | All 14 annotation types with unrooted circular tracks | [View ↗](https://mgs.microbialgenomic.cn/pubTreeServer/TreeVisualizer?galleryExample=multidimensional-annotation) | [NWK ↓](https://www.microbialgenomic.cn/pubtreeserverData/tree_gallery_example_data/example07.nwk) · [Excel ↓](https://www.microbialgenomic.cn/pubtreeserverData/tree_gallery_example_data/example07.xlsx) |
+| **08** | Publication-ready annotated figure | [View ↗](https://mgs.microbialgenomic.cn/pubTreeServer/TreeVisualizer?galleryExample=publication-ready) | [NWK ↓](https://www.microbialgenomic.cn/pubtreeserverData/tree_gallery_example_data/example08.nwk) · [Excel ↓](https://www.microbialgenomic.cn/pubtreeserverData/tree_gallery_example_data/example08.xlsx) |
+| **09** | Large-tree visualization and editing | [View ↗](https://mgs.microbialgenomic.cn/pubTreeServer/TreeVisualizer?galleryExample=large-tree) | [NWK ↓](https://www.microbialgenomic.cn/pubtreeserverData/tree_gallery_example_data/example09.nwk) · [Excel ↓](https://www.microbialgenomic.cn/pubtreeserverData/tree_gallery_example_data/example09.xlsx) |
+| **10** | Save, reopen and continue editing | [View ↗](https://mgs.microbialgenomic.cn/pubTreeServer/TreeVisualizer?galleryExample=save-recover) | [NWK ↓](https://www.microbialgenomic.cn/pubtreeserverData/tree_gallery_example_data/example10.nwk) · [Excel ↓](https://www.microbialgenomic.cn/pubtreeserverData/tree_gallery_example_data/example10.xlsx) |
+
+*Examples 01–04 have Newick test files only; Excel annotation test files are provided for Examples 05–10.*
 
 [Browse all 10 examples and download their test data →](docs/gallery.md)
 

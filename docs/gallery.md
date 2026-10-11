@@ -2,7 +2,7 @@
 
 [← Project home](../README.md) · [Official interactive gallery ↗](https://mgs.microbialgenomic.cn/pubTreeServer/tree_gallery)
 
-The official gallery offers **View example**, **Edit a copy**, a **Guide** link, and downloadable test data. The current frontend provides Newick test files for Examples 01–10 and Excel test data for Examples 05–10.
+The official gallery offers **View example**, **Edit a copy**, a **Guide** link, and downloadable test data. The current frontend provides Newick (`.nwk`) test files for all 10 examples and Excel (`.xlsx`) test files for Examples 05–10 only. The URLs below follow the distribution’s built-in gallery configuration.
 
 | No. | Example | Open in TreeVisualizer | Newick (`.nwk`) | Excel (`.xlsx`) |
 |---:|---|---|---|---|

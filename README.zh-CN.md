@@ -19,6 +19,10 @@
 5. **保存与共享配置：** 通过 **Save Configuration** 保存当前可视化和注释设置，包括布局、进化树状态、注释数据、颜色、图例、比例尺、编辑后的进化树位置及其他交互状态。可将保存后生成的 URL 分享给协作者，便于团队成员查看、继续编辑和完善同一配置的图形。
 6. **论文级导出：** SVG、PDF、EPS、PS、PNG、JPEG。
 
+## 范例数据下载
+
+GitHub 英文主页的 **Example gallery preview** 表格已提供全部 10 个范例的在线访问及测试数据下载链接；范例 01–04 提供 NWK，范例 05–10 提供 NWK 和 Excel。详细清单见 [docs/gallery.md](docs/gallery.md)。
+
 ## 本地部署包下载
 
 ```bash
