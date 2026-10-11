@@ -36,7 +36,7 @@
 
 | Component | Capabilities |
 |---|---|
-| **pubAutoTree** | Phylogenomic inference from FASTA genomes or NCBI assembly accessions; multiple inference methods, with analysis-dependent quality control and recombination filtering. |
+| **pubAutoTree** | Phylogenomic inference from FASTA genomes or NCBI assembly accessions (retrieving via a server-hosted genomicDB, containg all more than 3.4 M genome sequences); multiple inference methods, with analysis-dependent quality control and recombination filtering. |
 | **TreeVisualizer** | Rectangular, circular and unrooted tree layouts; interactive tree editing and real-time figure customization. |
 | **Excel-based annotation** | A unified annotation spreadsheet, **14 supported annotation types**, global settings and column-specific controls. |
 | **Publication-ready export** | Export publication-ready figures in SVG, PDF, EPS, PS, PNG and JPEG formats. |
