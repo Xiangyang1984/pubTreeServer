@@ -96,7 +96,7 @@ The inspected distribution contains `front-End/dist/`, `back-End/pubTreeServer.j
 | **10** | Save, reopen and continue editing | [View ↗](https://mgs.microbialgenomic.cn/pubTreeServer/TreeVisualizer?galleryExample=save-recover) | [NWK ↓](https://www.microbialgenomic.cn/pubtreeserverData/tree_gallery_example_data/example10.nwk) · [Excel ↓](https://www.microbialgenomic.cn/pubtreeserverData/tree_gallery_example_data/example10.xlsx) |
 | **11** | genome-to-figure | [View ↗](https://mgs.microbialgenomic.cn/pubTreeServer/TreeVisualizer?galleryExample=genome-to-figure) | [NWK ↓](https://www.microbialgenomic.cn/pubtreeserverData/tree_gallery_example_data/example11.nwk) · [Excel ↓](https://www.microbialgenomic.cn/pubtreeserverData/tree_gallery_example_data/example11.xlsx) |
 
-*Examples 01–04 have Newick test files only; Excel annotation test files are provided for Examples 05–10.*
+*Examples 01–04 have Newick test files only; Excel annotation test files are provided for Examples 05–11.*
 
 
 ## Contact
