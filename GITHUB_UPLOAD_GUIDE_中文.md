@@ -38,9 +38,9 @@ git push -u origin main
 
 - pubTreeServer 英文项目介绍与下载入口；
 - pubAutoTree / TreeVisualizer 两种入口；
-- 14 种注释类型及工作流程图（已将旧图的“13 Types”修正为“14 Types”）；
+- 14 种注释类型及工作流程图；
 - 帮助文档、Tree Gallery、Local Install 官方链接；
-- 10 个范例及其 NWK / Excel 下载说明；
+- 11 个范例及其 NWK / Excel 下载说明；
 - 统一的外部安装包下载地址：<https://www.microbialgenomic.cn/pubtreeserverData/pubTreeServer_local.tar.gz>。
 
 **请勿上传**原来的 `pubTreeServer_local.tar.gz` 到该仓库，下载按钮会自动转到你的服务器。
