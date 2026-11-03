@@ -41,7 +41,7 @@
 | **Excel-based annotation** | A unified annotation spreadsheet, **14 supported annotation types**, global settings and column-specific controls. |
 | **Publication-ready export** | Export publication-ready figures in SVG, PDF, EPS, PS, PNG and JPEG formats. |
 | **Save and share configuration** | Save the current visualization and annotation settings, then share the saved URL for collaborative review and continued editing. |
-| **Tree gallery** | Ten online examples with views, editable copies and downloadable example data. |
+| **Tree gallery** | 11 online examples with views, editable copies and downloadable example data. |
 | **Local deployment** | Precompiled web frontend and backend, bundled workflow scripts, and configurable local genomic database support. |
 
 ### 14 supported annotation types
