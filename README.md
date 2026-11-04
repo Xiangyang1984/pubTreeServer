@@ -75,7 +75,7 @@ The inspected distribution contains `front-End/dist/`, `back-End/pubTreeServer.j
 |---|---|
 | [Usage guide ↗](https://mgs.microbialgenomic.cn/pubTreeServer/usage) | Inputs, operations, annotation table and export. |
 | [Tree gallery ↗](https://mgs.microbialgenomic.cn/pubTreeServer/tree_gallery) | Ten interactive visualization and annotation examples. |
-| [Example-data links](docs/gallery.md) | Direct `.nwk` downloads for Examples 01–10 and `.xlsx` for Examples 05–10. |
+| [Example-data links](docs/gallery.md) | Direct `.nwk` downloads for Examples 01–11 and `.xlsx` for Examples 05–11. |
 | [Local installation ↗](https://mgs.microbialgenomic.cn/pubTreeServer/local-install) | Authoritative dependency and deployment instructions. |
 | [Quick start](docs/quick-start.md) | Which entry point to choose and what to do first. |
 | [FAQ](docs/faq.md) | Common download, setup and repository questions. |
