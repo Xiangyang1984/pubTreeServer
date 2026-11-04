@@ -105,7 +105,7 @@ The inspected distribution contains `front-End/dist/`, `back-End/pubTreeServer.j
 
 **Lab website:** kaili University, [Bacterial Genomic Data Mining & Bioinformatic Analysis](https://www.microbialgenomic.cn/)
 
-**License:** pubTreeServer is distributed under the MIT License for original components for which the copyright holder has the right to grant this license. Third-party software, libraries, databases, and other dependencies remain subject to their respective licenses and terms of use. See [pubTreeServer_LICENSE_v1.0.1.txt] (pubTreeServer_LICENSE_v1.0.1.txt) for the license terms.
+**License:** pubTreeServer is distributed under the MIT License for original components for which the copyright holder has the right to grant this license. Third-party software, libraries, databases, and other dependencies remain subject to their respective licenses and terms of use. See [pubTreeServer_LICENSE_v1.0.1.txt](pubTreeServer_LICENSE_v1.0.1.txt) for the license terms.
 
 ---
 
