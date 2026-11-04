@@ -1,8 +1,8 @@
-# Tree gallery: 10 examples and test data
+# Tree gallery: 11 examples and test data
 
 [← Project home](../README.md) · [Official interactive gallery ↗](https://mgs.microbialgenomic.cn/pubTreeServer/tree_gallery)
 
-The official gallery offers **View example**, **Edit a copy**, a **Guide** link, and downloadable test data. The current frontend provides Newick (`.nwk`) test files for all 10 examples and Excel (`.xlsx`) test files for Examples 05–10 only. The URLs below follow the distribution’s built-in gallery configuration.
+The official gallery offers **View example**, **Edit a copy**, a **Guide** link, and downloadable test data. The current frontend provides Newick (`.nwk`) test files for all 11 examples and Excel (`.xlsx`) test files for Examples 05–11 only. The URLs below follow the distribution’s built-in gallery configuration.
 
 | No. | Example | Open in TreeVisualizer | Newick (`.nwk`) | Excel (`.xlsx`) |
 |---:|---|---|---|---|
@@ -16,6 +16,7 @@ The official gallery offers **View example**, **Edit a copy**, a **Guide** link,
 | 08 | Publication-ready annotated figure | [View ↗](https://mgs.microbialgenomic.cn/pubTreeServer/TreeVisualizer?galleryExample=publication-ready) | [NWK ↓](https://www.microbialgenomic.cn/pubtreeserverData/tree_gallery_example_data/example08.nwk) | [Excel ↓](https://www.microbialgenomic.cn/pubtreeserverData/tree_gallery_example_data/example08.xlsx) |
 | 09 | Large-tree visualization and editing | [View ↗](https://mgs.microbialgenomic.cn/pubTreeServer/TreeVisualizer?galleryExample=large-tree) | [NWK ↓](https://www.microbialgenomic.cn/pubtreeserverData/tree_gallery_example_data/example09.nwk) | [Excel ↓](https://www.microbialgenomic.cn/pubtreeserverData/tree_gallery_example_data/example09.xlsx) |
 | 10 | Save, reopen and continue editing | [View ↗](https://mgs.microbialgenomic.cn/pubTreeServer/TreeVisualizer?galleryExample=save-recover) | [NWK ↓](https://www.microbialgenomic.cn/pubtreeserverData/tree_gallery_example_data/example10.nwk) | [Excel ↓](https://www.microbialgenomic.cn/pubtreeserverData/tree_gallery_example_data/example10.xlsx) |
+| 11 | Save, reopen and continue editing | [View ↗](https://mgs.microbialgenomic.cn/pubTreeServer/TreeVisualizer?galleryExample=genome-to-figure) | [NWK ↓](https://www.microbialgenomic.cn/pubtreeserverData/tree_gallery_example_data/example11.nwk) | [Excel ↓](https://www.microbialgenomic.cn/pubtreeserverData/tree_gallery_example_data/example11.xlsx) |
 
 **Example 07** demonstrates the full set of 14 annotation types using an unrooted layout with unrooted circular tracks. Use its Excel sheet as a reference for combined annotation types.
 
